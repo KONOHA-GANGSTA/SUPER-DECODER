@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainInput{
+    width : 80%;
+    font-size: 1.5em;
+    margin-top: 2%;
+}
+
+#set{
+    font-size: 2em;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.column div{
+    font-size: 1.5em;
+    border: 1px solid black;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.container{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.selected{
+    background-color: rgb(75, 121, 75);
+}
